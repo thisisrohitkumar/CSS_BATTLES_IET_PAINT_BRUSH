@@ -12,14 +12,12 @@ body{
     align-items: center;
 }
 .sound{
-    width: 100px;
-    height: 100px;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-}
-.volume{
+    right:1150px;    
+}.volume{
     width:50%;
     height: 100%;
     display: flex;
@@ -40,6 +38,40 @@ body{
     background-color: blue;
     clip-path: polygon(0 51%, 99% 0, 99% 100%);
     position: absolute;
+    z-index:100;
 }
-
-
+.right-border{
+    width:70px;
+    height:200px;
+    position: relative;
+    left: -40px;
+    background-color: black;
+}
+.circle-1{
+    background-color: black;
+    width:90px;
+    height:90px;
+    border:5px solid blue;
+    border-radius: 50%;
+    z-index:3;
+    position: absolute;
+}
+.circle-2{
+    background-color: black;
+    width:120px;
+    height:120px;
+    border:5px solid blue;
+    border-radius: 50%;
+    z-index:2;
+    position: absolute;
+}
+.circle-3{
+    background-color: black;
+    width:148px;
+    height:148px;
+    border:5px solid blue;
+    border-radius: 50%;
+    z-index:1;
+    position: relative;
+    
+}
