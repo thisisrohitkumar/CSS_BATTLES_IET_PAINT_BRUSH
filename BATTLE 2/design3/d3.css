@@ -1,0 +1,17 @@
+.container{
+    background-color: #3d0555;
+}
+.star
+{
+    width: 500px;
+    height:500px;
+    background-color: #3d0555;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-image: radial-gradient(
+        circle at center,
+        #dc2b5e 0.25rem,
+        transparent 0
+    );
+  background-size: 1rem 1rem;
+  background-repeat: round;
+}
