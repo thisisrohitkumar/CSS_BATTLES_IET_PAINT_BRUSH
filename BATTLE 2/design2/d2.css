@@ -1,0 +1,78 @@
+.container{
+    background-color: #3d0555;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    width:400px;
+}
+.sky{
+    width:100%;
+    height: 600px;
+    background-color: #11ffe7;
+    position: relative;
+}
+.leaves{
+    width:400px;
+    height:200px;
+    position: absolute;
+    top:20%;
+    left:2.5%;
+}
+.leaf-1{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:20%;
+    left:34%;
+    z-index:1;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.leaf-2{
+    width:120px;
+    height:120px;
+    position: absolute;
+    top:-10%;
+    left:33%;
+    z-index:1;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.leaf-3{
+    width:120px;
+    height:120px;
+    position: absolute;
+    top:10%;
+    left:15%;
+    z-index:1;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.leaf-4{
+    width:120px;
+    height:120px;
+    position: absolute;
+    top:10%;
+    right:18%;
+    z-index:1;
+    background-color: greenyellow;
+    border-radius: 50%;
+}
+.trunk{
+    width:80px;
+    height: 60%;
+    background-color: #8e5a3c;
+    position: absolute;
+    bottom:0;
+    left:40%;
+}
+.grass{
+    width:100%;
+    height: 200px;
+    background-color: #3aff12;
+}
+.ground{
+    width:100%;
+    height: 200px;
+    background-color: #628e03;
+}
